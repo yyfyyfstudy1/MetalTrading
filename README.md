@@ -79,4 +79,4 @@ This repository contains the source code for a comprehensive application consist
 
 ## Project UI design
 - The project UI design follows the principle of user-friendliness.
-- Please check the project design section of WIKI for details.
+- For detailed instructions, please see the [Design wiki](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Design-wiki) of our Wiki.
