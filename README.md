@@ -72,3 +72,10 @@ This repository contains the source code for a comprehensive application consist
 - **Help and Support**: Refer to the help section within each application component for assistance, or contact our support team for more specific inquiries.
 - **Feedback**: We welcome and value user feedback. Please use the feedback feature in the app or admin interface to share your suggestions or concerns.
 
+## Development
+- Project deployment relies on AWS service components
+- Please see the deployment section of the WIKI for details.
+
+## Project UI design
+- The project UI design follows the principle of user-friendliness.
+- Please check the project design section of WIKI for details.
