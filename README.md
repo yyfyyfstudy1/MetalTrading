@@ -1,6 +1,6 @@
 # Comp5703-cs76-2
 
-# Project Title
+# Metal Trading
 
 ## Description
 
