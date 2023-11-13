@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- 圆角搜索框 -->
+        <EditText
+            android:id="@+id/searchBox"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/cancelButton"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawableEnd="@drawable/ic_baseline_cancel_24"
+            android:hint="  Search..."
+            android:background="@drawable/rounded_search_box"/>
+
+        <!-- Cancel Button -->
+        <TextView
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="18sp"
+            android:text="Cancel"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/searchHistoryText"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Search History"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/deleteHistory"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/garabge"/>
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexLayout"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:alignItems="stretch">
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/searchTopText"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Top Search Product"
+            android:textColor="@color/red"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/topSearch"
+        android:layout_width="match_parent"
+        android:layout_height="800dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchResult"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>

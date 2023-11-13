@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/myOfferTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Sep 11 2023 15:00"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="4"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+<!--                左侧图片-->
+                <ImageView
+                    android:id="@+id/ItemImage"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1.5"
+                    android:paddingLeft="15dp"
+                    android:src="@drawable/img_16" />
+
+<!--                右侧信息-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="4">
+
+<!--                    上边-->
+                    <LinearLayout
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/itemName"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="13dp"
+                            android:text="item1"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/itemPurity"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:text="24K"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/itemPrice"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:layout_height="match_parent"
+                            android:text="$5"
+                            android:textColor="@color/red"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+<!--                    下边-->
+                    <LinearLayout
+                        android:id="@+id/myOfferStatus"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/resentButton"
+                            style="@style/Widget.MaterialComponents.Button"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.9"
+                            android:layout_height="40dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:gravity="center"
+                            android:text="Resend"
+                            android:textSize="11sp"
+                            android:visibility="invisible"
+                            app:backgroundTint="@color/darkGreen"
+                            app:cornerRadius="12dp" />
+
+                        <TextView
+                            android:id="@+id/cancelClick"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="18dp"
+                            android:textSize="15sp"
+                            android:text="@string/underlined_text"
+                            android:visibility="invisible"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/offerStatus"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="18dp"
+                            android:textSize="17sp"
+                            android:text="Pending"
+                            android:textStyle="bold"
+                            android:textColor="@color/yellow" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
