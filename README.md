@@ -80,3 +80,8 @@ This repository contains the source code for a comprehensive application consist
 ## Project UI design
 - The project UI design follows the principle of user-friendliness.
 - For detailed instructions, please see the [Design wiki](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Design-wiki) of our Wiki.
+
+## Testing 
+- The project underwent UTA testing, unit testing, stress testing, and integration testing.
+- For detailed instructions, please see the [Testing document](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Testing-Document) of our Wiki.
+
