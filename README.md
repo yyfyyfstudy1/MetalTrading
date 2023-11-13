@@ -73,8 +73,9 @@ This repository contains the source code for a comprehensive application consist
 - **Feedback**: We welcome and value user feedback. Please use the feedback feature in the app or admin interface to share your suggestions or concerns.
 
 ## Development
-- Project deployment relies on AWS service components
-- Please see the deployment section of the WIKI for details.
+
+- Project deployment relies on AWS service components.
+- For detailed deployment instructions, please see the [Deployment Section](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Development-document) of our Wiki.
 
 ## Project UI design
 - The project UI design follows the principle of user-friendliness.
