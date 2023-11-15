@@ -88,3 +88,7 @@ This repository contains the source code for a comprehensive application consist
 ## Dependencies 
 - For detailed instructions, please see the [Dependencies](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Dependencies) of our Wiki.
 
+## User manual 
+- User manual includes how to use each function
+- For detailed instructions, please see the [User manual](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/User-manual) of our Wiki.
+
