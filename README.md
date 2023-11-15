@@ -85,3 +85,6 @@ This repository contains the source code for a comprehensive application consist
 - The project underwent UTA testing, unit testing, stress testing, and integration testing.
 - For detailed instructions, please see the [Testing document](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Testing-Document) of our Wiki.
 
+## Dependencies 
+- For detailed instructions, please see the [Dependencies](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/Dependencies) of our Wiki.
+
