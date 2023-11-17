@@ -92,3 +92,5 @@ This repository contains the source code for a comprehensive application consist
 - User manual includes how to use each function
 - For detailed instructions, please see the [User manual](https://github.sydney.edu.au/yiyu7699/COMP5703-CS76-2/wiki/User-manual) of our Wiki.
 
+## Group final report
+- PDF link: https://capstone-file-store.s3.amazonaws.com/CS76-2_Group_FinalReport.pdf
